@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MPGS enablment Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Styled Table with Dropdown</h1>
+    <table id="dropdownTable">
+        <tr>
+            <td>
+                <form id="dropdownForm" onsubmit="handleSubmit(event)">
+                    <select name="dropdown" id="dropdown">
+                        <option value="">Select an option</option>
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                    </select>
+                    <button type="submit">Submit</button>
+                </form>
+                <div id="info" class="info"></div>
+            </td>
+        </tr>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
